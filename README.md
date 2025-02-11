@@ -1,4 +1,4 @@
-            ﻿# FullStack CRUD ContactList
+# FullStack CRUD ContactList
 
 # Overview
 A CRUD-based contact management system with profile image upload capabilities. Organizes contact details (name, email, phone, address) in a centralized, paginated interface.
