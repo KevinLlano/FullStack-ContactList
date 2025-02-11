@@ -1,6 +1,6 @@
 ﻿# FullStack CRUD ContactList
 
-## Overview
+# Overview
 A CRUD-based contact management system with profile image upload capabilities. Organizes contact details (name, email, phone, address) in a centralized, paginated interface.
 
 ---
@@ -24,7 +24,7 @@ A CRUD-based contact management system with profile image upload capabilities. O
 
 ---
 
-## Installation
+# Installation
 ### Prerequisites
 - JDK 17+, Maven, PostgreSQL, Node.js/npm.
 - Frontend Repo: [React-CRUDContactList](https://github.com/Nofate4you/React-CRUDContactList).
@@ -59,7 +59,7 @@ A CRUD-based contact management system with profile image upload capabilities. O
 
 ---
 
-## Testing Documentation
+# Testing Documentation
 ### Test Setup
 - **Framework**: JUnit 5 + Selenium WebDriver.
 - **Browser Automation**:
@@ -92,7 +92,7 @@ A CRUD-based contact management system with profile image upload capabilities. O
 
 --- 
 
-## Screenshots
+# Screenshots
 | Description          | Image                                                              |  
 |----------------------|--------------------------------------------------------------------|  
 | Contact List View    | ![Contact List View](https://github.com/user-attachments/assets/405c37a7-d838-4a3d-bdd5-f89da629477c) |  
