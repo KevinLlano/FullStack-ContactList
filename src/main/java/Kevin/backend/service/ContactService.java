@@ -26,8 +26,8 @@ import static java.nio.file.StandardCopyOption.REPLACE_EXISTING;
 
 @Service // Marks the class as a service in Spring, making it available for dependency injection
 @Slf4j // Enables logging (log.info, log.error) via Lombok
-@Transactional(rollbackOn = Exception.class) // Ensures all database operations are part of a transaction and rollback on exception
-@RequiredArgsConstructor // Generates a constructor with required arguments for final fields, specifically 'contactRepo'
+@Transactional(rollbackOn = Exception.class)
+@RequiredArgsConstructor
 public class ContactService {
     // Repository to handle CRUD operations for Contact entities
     private final ContactRepo contactRepo;
@@ -50,10 +50,15 @@ public class ContactService {
         return contactRepo.save(contact);
     }
 
-    // Placeholder method for deleting a contact (currently not implemented)
-    public void deleteContact(Contact contact) {
-        // Assignment (this method has yet to be implemented)
+
+    // Method to delete a contact by its ID
+    public void deleteContact(String id) {
+        contactRepo.deleteById(id);
+        log.info("Deleted contact with ID: {}", id);
     }
+
+
+
 
     // Method to handle uploading a contact's profile photo
     public String uploadPhoto(String id, MultipartFile file) {

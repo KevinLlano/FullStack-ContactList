@@ -55,4 +55,8 @@ public class ContactResource {
         // Reads the image file from the specified directory and returns it as a byte array
         return Files.readAllBytes(Paths.get(PHOTO_DIRECTORY + filename));
     }
+
+    @DeleteMapping("/{id}") public ResponseEntity<Void> deleteContact(@PathVariable String id) { contactService.deleteContact(id); return ResponseEntity.noContent().build(); }
+
+
 }
