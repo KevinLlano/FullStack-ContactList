@@ -93,12 +93,13 @@ A CRUD-based contact management system with profile image upload capabilities. O
 --- 
 
 ## Screenshots
-| Description          | Image URL                                                                 |  
-|----------------------|---------------------------------------------------------------------------|  
-| Contact List View    (https://github.com/user-attachments/assets/405c37a7-d838-4a3d-bdd5-f89da629477c) |  
-| Add Contact Form     (https://github.com/user-attachments/assets/ccde6110-f610-4b70-896a-9df1a7d3fc96) |  
-| Profile Image Upload (https://github.com/user-attachments/assets/edc5fb0c-c35b-49d6-b9c2-b6b67f70fc4c) |  
-| Pagination Example   (https://github.com/user-attachments/assets/664a39f3-aae3-4500-87e7-2361971936a7) |  
+| Description          | Image                                                              |  
+|----------------------|--------------------------------------------------------------------|  
+| Contact List View    | ![Contact List View](https://github.com/user-attachments/assets/405c37a7-d838-4a3d-bdd5-f89da629477c) |  
+| Add Contact Form     | ![Add Contact Form](https://github.com/user-attachments/assets/ccde6110-f610-4b70-896a-9df1a7d3fc96) |  
+| Profile Image Upload | ![Profile Image Upload](https://github.com/user-attachments/assets/edc5fb0c-c35b-49d6-b9c2-b6b67f70fc4c) |  
+| Pagination Example   | ![Pagination Example](https://github.com/user-attachments/assets/664a39f3-aae3-4500-87e7-2361971936a7) |  
+
 
 ---
 
