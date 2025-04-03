@@ -2,26 +2,26 @@
 
 
 # Overview
-A CRUD-based contact management system with profile image upload capabilities. Organizes contact details (name, email, phone, address) in a centralized, paginated interface.
+A cloud-hosted CRUD contact management system with Route 53, built with Spring Boot and React, featuring secure profile image uploads, pagination, and advanced search. It consists of organizing contact details such as name, email, phone, and address. Designed to streamline contact organization for teams, with centralized storage for details like job titles, home addresses, and status tracking.
 
 ---
 
 ## Features
-- **CRUD Operations**: Full Create, Read, Update, Delete functionality.
-- **Profile Image Upload**: Supports image uploads for contacts.
-- **Pagination**: User-friendly interface with multi-page navigation.
-- **Detailed Contact Storage**: Stores name, email, phone, address, job title, and status.
+- **CRUD Operations**: RESTful API endpoints for Create, Read, Update, and Delete actions with input validation.
+- **Profile Image Upload**: Secure server-side storage with file type/size validation to prevent malicious uploads.
+- **Pagination & Search**: Multi-page navigation and dynamic filtering for efficient large-dataset management.
+- **Responsive UI**: Bootstrap and Flexbox-driven design for seamless cross-device compatibility.
 
 ---
 
 ## Tech Stack
 | Category       | Technologies/Tools                                  |  
 |----------------|----------------------------------------------------|  
-| **Backend**    | Spring Boot 3.3.5, JPA, Lombok                     |  
-| **Frontend**   | React                                              |  
-| **Database**   | PostgreSQL                                         |  
-| **Testing**    | Selenium 4.20.0, JUnit 5, WebDriverManager 5.7.0   |  
-| **Infra**      | AWS (Hosting), GitHub (Version Control)            |  
+| **Backend**    | Spring Boot 3.3.5, JPA (Hibernate), Lombok, REST API Design                  |  
+| **Frontend**   | React, Axios (API Integration), Bootstrap 5                                              |  
+| **Database**   | PostgreSQL (ACID Compliance), pgAdmin                                         |  
+| **Testing**    | Selenium 4.20.0 (UI Automation), JUnit 5 (Unit Tests), WebDriverManager 5.7.0   |  
+| **Infrastructure**      | AWS EC2 (Deployment), Docker (Containerization), GitHub (CI/CD)            |  
 
 ---
 
@@ -62,9 +62,9 @@ A CRUD-based contact management system with profile image upload capabilities. O
 
 # Testing Documentation
 ### Test Setup
-- **Framework**: JUnit 5 + Selenium WebDriver.
+- **Framework**: JUnit 5 (Unit/Integration Tests) + Selenium (End-to-End UI Testing).
 - **Browser Automation**:
-   - `WebDriverManager` auto-configures ChromeDriver.
+   - `WebDriverManager` auto-configures browser drivers for Chrome/Firefox.
    - Explicit waits (20-second timeout) for dynamic elements.
 - **Test Flow**:
    1. Navigate to `http://localhost:3000/contacts`.
