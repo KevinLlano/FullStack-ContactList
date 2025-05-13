@@ -1,4 +1,4 @@
-<h1 align="center">FullStack CRUD ContactList</h1>
+<h1 align="center">FullStack Image Contact List</h1>
 
 
 # Overview
