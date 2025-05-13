@@ -28,7 +28,7 @@ A cloud-hosted CRUD contact management system with Route 53, built with Spring B
 # Installation
 ### Prerequisites
 - JDK 17+, Maven, PostgreSQL, Node.js/npm.
-- Frontend Repo: [React-CRUDContactList](https://github.com/Nofate4you/React-CRUDContactList).
+- *Frontend Repo: [React-CRUDContactList](https://github.com/Nofate4you/React-CRUDContactList).*
 
 ### Steps
 1. **Clone & Configure Backend**:
