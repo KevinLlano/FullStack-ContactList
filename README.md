@@ -2,7 +2,7 @@
 
 
 # Overview
-A previously cloud-hosted CRUD contact management system with Route 53, built with Spring Boot and React, featuring secure profile image uploads, pagination, and advanced search. It consists of organizing contact details such as name, email, phone, and address. Designed to streamline contact organization for teams, with centralized storage for details like job titles, home addresses, and status tracking.
+A previously cloud-hosted CRUD contact management system on EC2, built with Spring Boot and React, featuring secure profile image uploads, pagination, and advanced search. It consists of organizing contact details such as name, email, phone, and address. Designed to streamline contact organization for teams, with centralized storage for details like job titles, home addresses, and status tracking.
 
 ---
 
@@ -20,8 +20,8 @@ A previously cloud-hosted CRUD contact management system with Route 53, built wi
 | **Backend**    | Spring Boot 3.3.5, JPA (Hibernate), Lombok, REST API Design                  |  
 | **Frontend**   | React, Axios (API Integration), Bootstrap 5                                              |  
 | **Database**   | PostgreSQL (ACID Compliance), pgAdmin                                         |  
-| **Testing**    | Selenium 4.20.0 (UI Automation), JUnit 5 (Unit Tests), WebDriverManager 5.7.0   |  
-| **Infrastructure**      | AWS EC2 (Deployment), Docker (Containerization), GitHub (CI/CD)            |  
+| **Testing**    | Selenium 4.20.0 (UI Automation), JUnit 5 (Unit Tests), Postman, WebDriverManager 5.7.0   |  
+| **Infrastructure**      | AWS EC2 (Deployment), Docker (Containerization)            |  
 
 ---
 
